@@ -4,9 +4,12 @@ Una Libreria De Image Picker Basada En Mediastore Con La Inspiracion Del ImagePi
 Su Uso Es Muy Simple Solo Basta Con Pocas Lineas De Código
 PickerBuilder builder = new PickerBuilder();
 builder.init(contexto);
+
 Para Mostrarlo Solo Utilize
+
 PickerBuilder builder= new PickerBuilder();
 builder.init(contexto).show();
+
 Para Tener Control Sobre Los Button
 
 	final PickerBuilder builder = new PickerBuilder();
@@ -27,7 +30,9 @@ Para Tener Control Sobre Los Button
 
 					
 				}).show();
+
 Para Devolver La Ruta Del Archivo Seleccionado Solo Utilize
+
 	final PickerBuilder builder = new PickerBuilder();
 		builder.init(getActivity()).setPositiveButton("Seleccionar", new PickerOnClickListener(){
 
@@ -48,4 +53,5 @@ Para Devolver La Ruta Del Archivo Seleccionado Solo Utilize
 
 					
 				}).show();
+
 Tenga En Cuenta Que La Ruta Se Devuelve En Un String
